@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css basic2.css">
+    <style>
+         .header {
+        background-color: #b1abab;
+        text-align: center;
+        padding: 20px;
+      }
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>12.Navigator Bar</h1>
+        <p> elemen antarmuka pengguna (UI) yang digunakan dalam berbagai jenis <br> perangkat lunak dan aplikasi untuk membantu pengguna berpindah <br> antara berbagai bagian atau fitur yang ada</p>
+        <ul class="bar">
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>          
+    </div>
+        <div>
+           <h1>13.Dropdwon</h1>
+           <p>elemen antarmuka pengguna yang memungkinkan pengguna untuk <br> memilih satu opsi dari daftar pilihan yang muncul saat  <br> mereka mengklik atau mengarahkan kursor ke elemen tersebut</p>
+            <p><b>contoh dropdwon link</b></p>
+           <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                </div>
+              </div>
+              <p><b>contoh dropdwon gambar</b></p>
+              <div class="dropdown1">
+                <img src="1.jpg" alt="Cinque Terre" width="200" height="70">
+                <div class="dropdown-content1">
+                <img src="1.jpg" alt="Cinque Terre" width="300" height="200">
+                <div class="desc">Beautiful Cinque Terre</div>
+                </div>
+              </div>
+        </div>
+        <div>
+            <h1>14.From</h1>
+            <p><b>untuk membuat kolom input</b></p>
+            <form>
+                <label for="fname">Nama</label>
+                <input type="text" id="fname" name="fname">
+              </form>
+        </div>
+        <div>
+            <h1>15.Layout</h1>
+            <p><b>untuk mengatur tata letak situs Web</b></p>
+            <div class="header">
+                <h1>Header</h1>
+              </div>
+        </div>
+        <div class="topnav">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <h2>Column</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+            
+            <div class="column">
+              <h2>Column</h2>
+              <p> ipsum doLoremlor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+            
+            <div class="column">
+              <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+          </div>
+          <div class="footer">
+            <p>Footer</p>
+          </div>
+</body>
+</html>

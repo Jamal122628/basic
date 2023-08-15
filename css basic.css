@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.color1 {
+    color: #009000;
+}
+.color2 {
+    color: #E49B0F;
+}
+
+.background1 {
+    background-color: gold;  
+}
+
+.background2 {
+    background-image: url(1.jpg);
+    color: rgb(255, 218, 149);
+    background-repeat: no-repeat;
+}
+
+.background3 {
+    background-image: url("gambar.jpg");
+  background-repeat: repeat;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.padding {
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+} 
+
+.margin {
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+.heiwidth {
+    height: 100px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+.font1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.display {
+    display: inline-block;
+}
+
+.max-width {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+.posisi {
+position: static;
+  border: 3px solid #73AD21;
+}
+
+.posisi1 {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+.posisi2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+img {
+  float: right;
+}
